@@ -1,5 +1,6 @@
 \title{Yunkai's Forest}
-\p{This is a place where I explore my thoughts and ideas, writing down things with the [forester notes](https://www.forester-notes.org) tool.}
+\def\kbd[body]{\<html:kbd>{\body}}
+\p{This is a place where I explore my thoughts and ideas, writing down things with the [forester notes](https://www.forester-notes.org) tool. To search files, press \kbd{Ctrl}+\kbd{K}.}
 \ul{
   \li{[Build and view your forest for the first time](https://www.forester-notes.org/jms-007D/)}
   \li{[Overview of the Forester markup language](https://www.forester-notes.org/jms-007N/)}
