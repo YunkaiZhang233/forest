@@ -55,7 +55,15 @@ jobs:
 
       - name: Check `latex` version
         run: latex --version
-        
+
       - name: Build with Forester
         run: |
           opam exec -- forester build forest.toml        
+      
+      - name: Deploy to Cloudflare
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy output --project-name=forest
+          # gitHubToken: ${{ secrets.GITHUB_TOKEN }}
