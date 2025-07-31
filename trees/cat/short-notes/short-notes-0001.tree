@@ -1,0 +1,15 @@
+\date{2025-07-28T21:43:26Z}
+\title{Proving bicartesian closed categories are distributive}
+\author{yunkaizhang}
+\taxon{Short Note}
+
+\p{This is a short note on a question I encountered while reading about the sheets in [Cambridge's Category Theory](https://www.cl.cam.ac.uk/teaching/2223/CAT/) course. The question is essentially to prove the following theorem, but without using knowledge later in the course.}
+
+\transclude{0001}
+
+\p{In addition, the question explicitly requires me to construct the isomorphism between #{(Y + Z) \times X \cong (Y \times X) + (Z \times X).}
+}
+
+\p{Here are some isomorphisms we can use (that are already proven earlier in the course):}
+
+\transclude{ccc-iso}

@@ -1,0 +1,13 @@
+\date{2025-07-28}
+\author{yunkaizhang}
+\title{Some Useful Isomorphisms in CCC}
+
+\def\iso{#{\cong}}
+\p{Useful Isomorphisms in product category with terminal objects.}
+\p{}
+\ol{
+  \li{#{X \times (Y \times Z) \cong (X \times Y) \times Z}}
+  \li{#{1 \times X \cong X}}
+  \li{#{X \times 1 \cong X}}
+  \li{#{X \times Y \cong Y \times X}}
+}
